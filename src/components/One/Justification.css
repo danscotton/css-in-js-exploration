@@ -1,0 +1,77 @@
+.justification-1 {
+    display: flex;
+}
+
+.justification-1__type,
+.justification-1__duration {
+    display: block;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid #999;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.justification-1__type {
+    position: relative;
+    width: 20px;
+    letter-spacing: -0.025em;
+}
+
+.justification-1__duration {
+    position: relative;
+    padding: 0 4px;
+    min-width: 12px;
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.justification-1__duration:before {
+    position: absolute;
+    z-index: 1;
+    left: -10px;
+    top: -2px;
+    bottom: -2px;
+    content: '';
+    display: block;
+    width: 10px;
+    border: 2px solid;
+    border-width: 2px 0;
+}
+
+.justification-1--consent span {
+    border-color: mediumseagreen;
+    color: mediumseagreen;
+}
+
+.justification-1--legitimate-interest span {
+    border-color: mediumslateblue;
+    color: mediumslateblue;
+}
+
+.justification-1--contract span {
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
+
+.justification-1--public-interest span {
+    border-color: sienna;
+    color: sienna;
+}
+
+.justification-1--legal-obligation span {
+    border-color: lightslategrey;
+    color: lightslategrey;
+}
+
+.justification-1--vital-interest span {
+    border-color: violet;
+    color: violet;
+}
